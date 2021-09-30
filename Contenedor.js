@@ -20,6 +20,9 @@ class Contenedor {
       if (contenido === '') {
         producto.id = 1;
         productos.push(producto);
+
+
+        
       } else {
         // si no esta vacio el archivo, id ultimo mas 1
         const listaDeProductos = JSON.parse(contenido);
